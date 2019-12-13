@@ -16,5 +16,16 @@ func main() {
   // Fetch pagelist and print them
   items, _, _ := client.PageList(&ListOptions{Skip: 0, Limit: 1})
   fmt.Println(items)
+
+  // Fetch page title and print them
+  items, _, _ := client.PageTitle("API")
+  fmt.Println(items)
+
+  // Fetch page text and print them
+  body, _, _ := client.PageText("API")
+  fmt.Printf("%s", body)
+
+  // Fetch page icon
+  bin, _, _ := client.PageIcon("API")
 }
 ```
