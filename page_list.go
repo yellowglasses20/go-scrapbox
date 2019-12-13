@@ -10,15 +10,15 @@ type ListOptions struct {
 
 // PageList is a collection of pagelist elements
 type PageList struct {
-	ProjectName string  `json:"projectName"`
-	Skip        int     `json:"skip"`
-	Limit       int     `json:"limit"`
-	Count       int     `json:"count"`
-	Pages       []Pages `json:"pages"`
+	ProjectName string `json:"projectName"`
+	Skip        int    `json:"skip"`
+	Limit       int    `json:"limit"`
+	Count       int    `json:"count"`
+	Pages       []Page `json:"pages"`
 }
 
-// Pages is a collection of pagelist elements
-type Pages struct {
+// Page is a collection of pagelist elements
+type Page struct {
 	ID              string   `json:"id"`
 	Title           string   `json:"title"`
 	Image           string   `json:"image"`
@@ -36,7 +36,10 @@ type Pages struct {
 
 // UserID is a collection of pagelist elements
 type UserID struct {
-	ID string `json:"id"`
+	ID          string `json:"id"`
+	Name        string `json:"name"`
+	DisplayName string `json:"displayName"`
+	Photo       string `json:"photo"`
 }
 
 // PageList return pagelist from scrapbox API

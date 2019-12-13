@@ -61,7 +61,7 @@ func TestList(t *testing.T) {
 		Skip:        0,
 		Limit:       1,
 		Count:       78,
-		Pages: []Pages{{
+		Pages: []Page{{
 			ID:    "57c7d72ad25ef00f00100688",
 			Title: "Scrapboxの使い方",
 			Image: "https://gyazo.com/7057219f5b20ca8afd122945b72453d3/raw",
