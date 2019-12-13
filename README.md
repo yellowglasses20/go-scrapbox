@@ -1,4 +1,4 @@
-# go-scrapbox [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/yellowglasses20/go-scrapbox?status.svg)](https://godoc.org/github.com/yellowglasses20/go-scrapbox) [![Go Report Card](https://goreportcard.com/badge/yellowglasses20/go-scrapbox)](https://goreportcard.com/report/github.com/yellowglasses20/go-scrapbox)
+# go-scrapbox [![License](https://img.shields.io/:license-apache-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![GoDoc](https://godoc.org/github.com/yellowglasses20/go-scrapbox?status.svg)](https://godoc.org/github.com/yellowglasses20/go-scrapbox) [![Go Report Card](https://goreportcard.com/badge/yellowglasses20/go-scrapbox)](https://goreportcard.com/report/github.com/yellowglasses20/go-scrapbox) ![](https://github.com/yellowglasses20/go-scrapbox/workflows/Go/badge.svg)
 
 ## usage
 ```go
